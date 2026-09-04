@@ -1,0 +1,8 @@
+base_model = "Qwen/Qwen2.5-0.5B-Instruct"
+method = "LoRA SFT"
+lora_rank = 8
+lora_alpha = 16
+lora_dropout = 0.05
+learning_rate = 2e-4
+max_length = 1024
+note = "GPU training configuration; demos do not reproduce model training."

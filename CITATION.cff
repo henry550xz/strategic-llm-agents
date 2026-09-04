@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this repository."
+title: "Strategic LLM Agents"
+type: software
+version: 0.1.0
+date-released: 2026-09-04
+authors:
+  - family-names: "He"
+    given-names: "Henry"
+repository-code: "https://github.com/henry550xz/strategic-llm-agents"
+abstract: "Learning, simulation, and evaluation for strategic multi-agent policies."

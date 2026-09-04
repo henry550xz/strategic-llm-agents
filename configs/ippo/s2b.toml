@@ -1,0 +1,11 @@
+algorithm = "parameter_sharing_ippo"
+num_learning_agents = 5
+hidden_dim = 64
+gamma = 0.99
+gae_lambda = 0.95
+clip_ratio = 0.2
+value_coefficient = 0.5
+entropy_coefficient = 0.01
+intent_aux_coefficient = 0.5
+reward_scale = 0.01
+planning_interval = 2

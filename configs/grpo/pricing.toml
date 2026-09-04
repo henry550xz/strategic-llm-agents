@@ -1,0 +1,4 @@
+method = "GRPO"
+action_support = "strict executable 0.5 price grid"
+reward = "environment reward and exact regret variants"
+note = "GPU training configuration; invalid actions are execution failures."

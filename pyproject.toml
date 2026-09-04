@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strategic-llm-agents"
+version = "0.1.0"
+description = "Learning, simulation, and evaluation for strategic multi-agent policies."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24", "pytest>=8"]
+
+[project.optional-dependencies]
+train = ["torch>=2.3", "transformers>=4.41", "peft>=0.11", "accelerate>=0.30", "datasets>=2.19", "trl>=0.9"]
+openspiel = ["open-spiel>=1.6.11"]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:cacheprovider"

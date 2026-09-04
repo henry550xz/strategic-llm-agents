@@ -1,0 +1,3 @@
+population,heldout_mean_regret,worst_opponent_regret,cvar20_regret,dominant_fraction,entropy
+NARROW,6.614020,9.989314,9.549518,0.7450,1.066231
+DIVERSE,6.401803,10.128015,9.022371,0.7275,1.136401

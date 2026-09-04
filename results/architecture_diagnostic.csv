@@ -1,0 +1,5 @@
+method,reward,mean_regret,dominant_fraction,entropy,episodes,status
+S1 direct API LLM,585.102577,69.400756,1.00,0.000000,2,matched diagnostic
+S2A planner plus rule controller,925.608672,35.350146,0.65,1.189886,2,matched diagnostic
+S2B planner plus shared IPPO,1141.574565,13.753557,0.40,1.279854,2,matched diagnostic
+S3 local trained LLM,1257.870547,2.123959,1.00,0.000000,2,matched diagnostic

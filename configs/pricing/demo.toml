@@ -1,0 +1,8 @@
+num_agents = 5
+num_rounds = 10
+base_demand = 100.0
+unit_cost = 5.0
+min_price = 5.0
+max_price = 20.0
+price_sensitivity = 1.0
+reputation_weight = 0.2
